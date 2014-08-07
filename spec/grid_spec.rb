@@ -34,7 +34,7 @@ describe Grid do
         [0, 0, 0],
         [0, 1, 0],
         [0, 0, 0]
-      ]
+        ]
       expect(Grid.new(lonely_grid).tick).to eq([
                                                [0, 0, 0],
                                                [0, 0, 0],
